@@ -1,0 +1,22 @@
+
+create a git repositary using gitbub
+ make it public or personal based on your purpose
+ download git bub app in your system
+  git  clone<url>
+  
+
+  touch - create a new file in git bash
+  git add
+  git commit -m "message"
+  git status
+  git push
+  git pull
+  git log
+  git reset --hard<commit>
+  git reset --hard orgin/master
+  git branch
+  git checkout -bstyle       (style-newbranchname)
+  git checkour style
+  git merge style
+  fork
+  gitwebpage

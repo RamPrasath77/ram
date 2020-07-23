@@ -1,0 +1,60 @@
+html 
+why html?
+doctype html
+dom-Document object model
+tags
+orderedList
+unorderedList
+attributes are things inside the tags or elements
+properties are things inside the attributes
+image tag src
+anchor tag href
+input tag type= text,password or submit
+input tag will contain values
+style attributes can be written inside the head tag
+style tag can be maintain seperately by linking the webpage using the link tag by rel="stylesheet"
+margin is space between the outside the elemnet and page
+padding is the distance between the element border and the content
+border-collapse is used to collapse the table border of an table
+id is used as an unique identifier to an element usw #
+class is used to group more element which helps to apply style use .
+specificity of css (inline,id,class,type)
+
+css selectors
+
+descendant ul li it applies to all child and grandchild elements
+ul>li it applies only to the first child elements
+attribute selectors a[href="facebook.com"] it applies only to the anchor tag which has href as facebook.com
+pseudocode selectors while doing some action on that elements like hoever button:hoever
+
+
+responsive css
+
+viewport to make content available to full size <meta name="viewport" content="width=device-width , initial-scale=1.0" >
+
+mediaquery css to each device by mentioning the width @media(min-width:600px)
+
+flexport #div{ display:flex; flex-wrap:wrap;}
+
+grid #div {display:grid;
+grid-column-gap:20px;
+grid-row-gap:10px;
+grid-template-columns:200px 200px auto
+
+}
+
+
+
+bootstrap is library in css which consists of predefined style we can simply add that class by choosing from website
+ bootstrap mobile responsive bootstrap divides the screen into 12 section col-3 col-3 col-3 col-3
+ boostrap made responsive for large and small screen col-lg-3 col-sm-6
+
+
+ sass used to create variable in css we need to complie scss files to css fille by command we need to do it everytime $color :red;
+
+ sass can able to nest css inside the css 
+
+ sass can inherit the css properties like %message inherit using the @extend message;
+
+ class name .offset-* used as margin value in bootstrap eg: col-md-6 .offset-md-3
+
