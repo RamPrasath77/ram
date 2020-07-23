@@ -52,3 +52,13 @@ body {
 .navbar-inverse{
     margin-bottom: auto;
 }
+
+/*set carousel height*/
+.carousel-indicators {
+    bottom: -75px;
+}
+
+i {
+    overflow: hidden;
+    max-width: 75ch;
+  }
