@@ -2,7 +2,7 @@ body {
     padding-top: 10px;
 }
 [class*="col-"], footer {
-    background-color: lightgreen;
+    /*background-color: lightgreen;*/
     border: 2px solid black;
     border-radius: 6px;
     /*line-height: 40px;*/
@@ -33,15 +33,22 @@ body {
     }
 }
 /*-- set height for head section--*/
-.headSection2,.poc,.awards,.contacts{
+.poc,.awards,.contacts{
     line-height: 177px;
 
+}
+.headSection2{
+    line-height: 154px;;
 }
 
 .navsection{
     line-height: 40px;
 }
-.bio
-{
-    height: 100%;
+
+/* adject height of button in search box*/
+.searchbtn{
+    top: -8px;
+}
+.navbar-inverse{
+    margin-bottom: auto;
 }
