@@ -1,0 +1,103 @@
+python needs a interpreter we need to work it in command prompt
+exit()  is used to end interactive python in command prompt
+print("hello")  is function used to print
+name= input("Name :")--- is a function used to get input value
+print("name"+name) is used to print string along with value
+print(f"name,{name}")---ths f{} is used to formatting a string
+ if n>0: is expression
+
+ elif ---is used to represent else if
+
+
+ python data structures
+ list - sequence of mutable values like names=["harrry","Ron","Mark"]
+ tuple - sequence of immutable values like coordinate(10.0,20.0)
+ set - collection of unique values
+ dict - key-value pairs
+
+
+ list example names=["harry","Ron","Mark"]  functions in lists listname.append("william") list.sort()
+
+ set examples s=set() s.add(1) s.add(2) s.add(3) print(s)  s.remove(1)  we can add same value 2 times 
+
+
+ len() function used to calculate the length of string,set,lists, etc
+
+
+ dictionary is one of the important data structure in the python 
+
+ example of dictionary is houses={"harry":"gryffindor","mark":"slytherin"}
+
+ for i in names:
+ print(i)
+
+
+ this is an example of for loop
+
+ for number in Range(6):
+ print number
+
+
+ def keyword is used to define a function
+
+ eg:
+ def square(x):
+ return x*x
+
+
+ for in Range(6):
+ print(f"The square value of {i}is {square(i)} )
+
+
+
+ to use a function in different python file 
+
+
+ we can use from pythonfilename import function name
+
+ eg: from function import square
+
+
+ class is an template to store object
+
+
+ class Point(): is an example to create an object
+
+ in class we have a method or functin everytime it will be excecuted whenever im using that class
+ example is def __init__(self,input1,input2):
+
+ self.x=input1
+ self.y=output
+
+p=Point(2,8)
+print(p.x)
+print(p.y )
+
+
+
+Decorators is one of the important feauture in python 
+we can pass or change the function which mean function can change as value
+
+
+example
+
+def announce(f):
+ def wrapper():
+   print("about to run a function")
+   f()
+   print("done with the function")
+  return wrapper
+
+  @announce
+  def hello():
+   print("hello!world")
+
+  hello()
+
+
+  lamda expression
+
+  try
+
+  except
+
